@@ -35,7 +35,7 @@ def make_commit():
         print(f'Error during commit: {e}')
 
 # Jadwalkan tugas setiap hari
-schedule.every().day.at("10:41").do(make_commit)  # Ganti waktu sesuai kebutuhan
+schedule.every().day.at("10:40:30").do(make_commit)  # Ganti waktu sesuai kebutuhan
 
 print("Scheduler is running...")
 
